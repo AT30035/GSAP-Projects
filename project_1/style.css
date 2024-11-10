@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: #f7f7f7;
+}
+#cursor{
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+    position: fixed;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-color:bisque;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    
+}
+.card{
+    height: 483px;
+    width: 350px;
+    background-image: url(oldsoul_abhay_qr.png);
+    background-position:bottom;
+        
+    background-size: 350px;
+    background-repeat: no-repeat;
+    background-color: white;
+    border-radius: 10%;
+    box-shadow: 0px 0px  50px 20px rgb(184, 95, 22);
+    
+}
+.upper{
+    height: 100px;
+    width: 350px;
+    z-index: z  ;
+
+    /* border: 2px dashed red; */
+    border-radius: 40px 40px 0% 0px;
+}
